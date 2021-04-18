@@ -21,6 +21,6 @@ Pré-requisitos
 > - Após a execução dos testes, para visualizar este relatório, basta executar o comando: **npm run reporter: cucumber"**.
 
 
-# Observação:
+### Observações:
 
-Mind map na pasta do projeto.
+- Mind map na pasta do projeto.
