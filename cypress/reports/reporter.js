@@ -10,7 +10,7 @@ const options = {
     launchReport: true,
     metadata: {
         "Test Environment": "STAGING",
-        "Browser": "Electron",
+        "Browser": "Chrome",
         "Platform": "Windows 10",
         "Executed": "Local"
     }
