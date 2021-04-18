@@ -105,3 +105,4 @@ dist
 
 # Specific file
 #cypress.json
+cucumber_report.html
