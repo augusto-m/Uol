@@ -1,4 +1,4 @@
-# Instruções para instalação/execução do projeto:
+## Instruções para instalação/execução do projeto:
 
 Pré-requisitos
 > - Node instalado;
