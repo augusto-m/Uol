@@ -1,7 +1,7 @@
 ## Instruções para instalação/execução do projeto:
 1. Pré-requisitos
 
-- Node instalado;
+> - Node instalado;
 
 2. Preparar o ambiente
 
