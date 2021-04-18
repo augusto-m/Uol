@@ -15,3 +15,7 @@ Pré-requisitos
 > - Iniciar o teste clickando em: **comprar_produto.feature**
 
 > - Os testes serão realizados, detalhados e dado feedback de conclusão dos mesmos na time travel do test runner no lado esquerdo
+
+3. Visualizar relatório dos cenários
+
+> - Após a execução dos testes, para visualizar um relatório configurado para o cucumber, basta executar o comando: **npm run reporter: cucumber"**.
