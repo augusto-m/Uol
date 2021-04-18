@@ -18,4 +18,4 @@ Pré-requisitos
 
 3. Visualizar relatório do Cucumber
 
-> - Após a execução dos testes, para visualizar um relatório configurado para o cucumber, basta executar o comando: **npm run reporter: cucumber"**.
+> - Após a execução dos testes, para visualizar este relatório, basta executar o comando: **npm run reporter: cucumber"**.
