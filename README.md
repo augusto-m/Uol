@@ -1,4 +1,4 @@
-# Passo-a-passo:
+# Instruções:
 
 Pré-requisitos
 > - Node instalado;
