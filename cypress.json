@@ -3,7 +3,7 @@
     "baseUrl": "http://automationpractice.com/",
     "watchForFileChanges": true,
     "defaultTimeout": 10000,
-    "pageLoadTimeout": 12000,
+    "pageLoadTimeout": 40000,
     "defaultCommandTimeout": 8000,
     "viewportWidth": 1280,
     "viewportHeight": 720,

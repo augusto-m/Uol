@@ -3,7 +3,11 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cy:run:chrome": "npx cypress run --headless --browser chrome",
+    "cy:run:firefox": "npx cypress run --browser firefox",
+    "reporter:clean": "rmdir cypress/reports/cucumber-json/**",
+    "reporter:cucumber": "node cypress/reports/reporter.js"
   },
   "keywords": [],
   "author": "",
@@ -22,6 +26,6 @@
       "outputFolder": "cypress/reports/cucumber-json",
       "filePrefix": "",
       "filePreSufix": ".cucumber"
-    }     
+    }
   }
 }
