@@ -16,6 +16,6 @@ Pré-requisitos
 
 > - Os testes serão realizados, detalhados e dado feedback de conclusão dos mesmos na time travel do test runner no lado esquerdo
 
-3. Visualizar relatório dos cenários
+3. Visualizar relatório do Cucumber
 
 > - Após a execução dos testes, para visualizar um relatório configurado para o cucumber, basta executar o comando: **npm run reporter: cucumber"**.
