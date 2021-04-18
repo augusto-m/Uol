@@ -1,4 +1,4 @@
-# Passo-a-passo para executar os testes:
+# Passo-a-passo:
 
 Pré-requisitos
 > - Node instalado;
