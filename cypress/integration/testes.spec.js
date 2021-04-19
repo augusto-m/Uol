@@ -1,12 +1,6 @@
 ///<reference types = "Cypress"/>
 
-const produto = 'Faded Short Sleeve'
-const valor = 16.51
-const cor = 'Orange'
-const tamanho = 'S'
-const SKU = 'demo_1'
-const produto2 = 'Printed'
-
+import prod from '../fixtures/produtos.json'
 
 before(() => {
     cy.visit('')
@@ -14,12 +8,12 @@ before(() => {
 });
 
 it('consulta dados', () => {
-    cy.searchProd(produto)
-    cy.addFirstProdCart(produto, cor, tamanho, valor)
-    cy.validateProdAdd(produto, cor, tamanho, valor)
-    cy.validateProdCar(produto, cor, tamanho, valor)
+    cy.searchProd(prod.nome)
+    cy.addFirstProdCart(prod.nome, prod.cor, prod.tamanho, prod.valor)
+    cy.validateProdAdd(prod.nome, prod.cor, prod.tamanho, prod.valor)
+    cy.validateProdCar(prod.nome, prod.cor, prod.tamanho, prod.valor)
     cy.goCheckout()
-    cy.validateProdCheckout(produto, cor, tamanho, SKU, valor)
+    cy.validateProdCheckout(prod.nome, prod.cor, prod.tamanho, prod.SKU, prod.valor)
 });
 
 
